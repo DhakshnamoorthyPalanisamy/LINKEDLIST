@@ -11,5 +11,9 @@ public class set_size {
         color.set(2,"grey");
         System.out.println("Replace the Element:" + color);
     }
-    
 }
+/*
+ OUTPUT:
+ The Size of the Element: 5
+Replace the Element:[blue, yellow, grey, pink, green]
+ */
