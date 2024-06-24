@@ -1,5 +1,5 @@
 import java.util.LinkedList;
-public class removeOccurence {
+public class FirstOccurence_LastOccurence {
     public static void main(String args[]){
         LinkedList<String> color=new LinkedList<>();
         color.add("blue");
@@ -13,9 +13,11 @@ public class removeOccurence {
         System.out.println("First Occurrence of red is :" +color);
          color.removeLastOccurrence("blue");
         System.out.println("Last Occurrence of blue is :" +color);
-
-
-
-    }
-    
 }
+    }
+/*
+OUTPUT:
+ [blue, red, green, red, violet, blue]
+First Occurrence of red is :[blue, green, red, violet, blue]
+Last Occurrence of blue is :[blue, green, red, violet]
+ */
