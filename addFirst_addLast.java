@@ -7,15 +7,15 @@ class addFirst_addLast{
         color.add("white");
         color.add("green");
         System.out.println("LinkedList: " + color);
-        color.addFirst("pink");
+        color.addFirst("pink"); //add the first element
         System.out.println("First Element:" + color);
-        color.addLast("violet");
+        color.addLast("violet"); //add the last element
         System.out.println("Second Element:" + color);
-      
-       
-
-
-
-    }
-}
-
+       }
+} 
+/* 
+OUTPUT:
+LinkedList: [red, black, white, green]
+First Element:[pink, red, black, white, green]
+Second Element:[pink, red, black, white, green, violet]
+*/
