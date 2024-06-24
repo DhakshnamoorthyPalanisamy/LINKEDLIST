@@ -9,9 +9,13 @@ public class getFirst_getLast {
         color.add("violet");
         color.add("pink");
         System.out.println("LinkedList:" + color);
-        System.out.println("First Element: " + color.getFirst());
-        System.out.println("Second Element: " + color.getLast());
-     
-
+        System.out.println("First Element: " + color.getFirst());//get the 1st element
+        System.out.println("Second Element: " + color.getLast());//get the 2nd element
+     }
 }
-}
+/*
+ OUTPUT
+ LinkedList:[blue, red, green, red, violet, pink]
+First Element: blue
+Second Element: pink
+ */
