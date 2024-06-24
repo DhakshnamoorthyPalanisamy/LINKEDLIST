@@ -9,7 +9,12 @@ public class clear {
         color.add("violet");
         color.add("blue");
         System.out.println("LinkedList:" + color);
-        color.clear();
+        color.clear();//clear the all the element
         System.out.println("After the Clearing the Element" );
 }
 }
+/*
+ OUTPUT:
+ LinkedList:[blue, red, green, red, violet, blue]
+After the Clearing the Element
+ */
